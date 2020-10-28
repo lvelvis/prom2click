@@ -1,4 +1,5 @@
 # prom2click
+![Alt text](./img/prom2click.png "prom2click流程图" )
 ```
 # 启动脚本
 #指定数据库metrics
