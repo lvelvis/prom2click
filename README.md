@@ -3,7 +3,7 @@
 ```
 # 启动脚本
 #指定数据库metrics
-#指定分布式表dist；否则分片数据不均衡
+#指定分布式表dist；否则分片数据不均衡或者配置2个write地址，每个地址落在每个分片上
 nohup /usr/local/prom2click/bin/prom2click \
 -ch.db metrics \
 -ch.table dist \
